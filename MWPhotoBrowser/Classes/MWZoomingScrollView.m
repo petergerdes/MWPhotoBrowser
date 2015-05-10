@@ -334,6 +334,7 @@
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    self.scrollEnabled = NO;
 	[_photoBrowser cancelControlHiding];
 }
 
